@@ -3,15 +3,24 @@ import { GifsService } from '../services/gifs.service';
 
 @Component({
   selector: 'app-resultados',
-  templateUrl: './resultados.component.html'
-})
-export class ResultadosComponent{
+  templateUrl: './resultados.component.html',
+  styles: [
+    `
+      .card {
+        background-color: #343a40;
+        color: white;
+      }
 
-  
-  get resultados(){
+      .container__card{
+        width: 300px !important;
+      }
+    `,
+  ],
+})
+export class ResultadosComponent {
+  get resultados() {
     return this.gifsService.resultados;
   }
-  
-  constructor(private gifsService: GifsService) { }
 
+  constructor(private gifsService: GifsService) {}
 }

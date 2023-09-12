@@ -3,14 +3,13 @@
 </ul> -->
 
 <div class="row">
-    <div  *ngFor="let gif of resultados" class="col-md-4 col-sm-6 animate__animated animate__fadeIn" >
+    <div  *ngFor="let gif of resultados" class="m-1 col-md-4 col-sm-6 animate__animated animate__fadeIn container__card" >
         <div class="card">
             <img [src]="gif.images.downsized_medium.url" [alt]="gif.title"
             class="card-img-top">
             <div class="card-body">
                 <p class="card-text">
                     {{gif.title}}
-                    
                 </p>
             </div>
         </div>
