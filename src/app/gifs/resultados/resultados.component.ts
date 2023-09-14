@@ -12,7 +12,7 @@ import { GifsService } from '../services/gifs.service';
       }
 
       .container__card{
-        width: 300px !important;
+        width: 250px !important;
       }
     `,
   ],
