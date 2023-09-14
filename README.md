@@ -14,6 +14,7 @@ The project consumes a gifs api that searches, queries and displays the results 
 
 ## Resolutions
 ## Responsive
-![image](https://github.com/Marlon-Quinde/Aplication-Angular-API-Giphy/assets/71990962/83881f1c-fb3f-4542-be0a-168b8070826b)
+![image](https://github.com/Marlon-Quinde/Aplication-Angular-API-Giphy/assets/71990962/c99bf12b-58ad-4c6b-9784-daa2bc29d3f8)
+
 
 
